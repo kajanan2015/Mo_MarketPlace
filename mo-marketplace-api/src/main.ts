@@ -21,7 +21,7 @@ async function bootstrap() {
 
   // CORS for frontend
   app.enableCors({
-    origin: ['http://localhost:5173', 'http://localhost:3001'],
+    origin: ['http://localhost:5173', 'http://localhost:3001','https://mo-market-place.vercel.app'],
     credentials: true,
   });
 
